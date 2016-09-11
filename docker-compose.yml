@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+  kogsfront:
+    build: .
+    volumes:
+      - ./src:/usr/share/nginx/html
+    ports:
+      - "80:80"

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.ico">
+    <title>What's New | Learning Boards</title>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/lib/require.js"></script>
+    <script>requirejs(['js/common'], function(common){requirejs(["./news"]); });</script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/fontawesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <h1>What's New</h1>
+      </div>
+        <div class="row">
+        <div class="col-sm-8">
+          <div id="newsListContainer"></div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail sidebar-item sidebar-item-top" >Following</div>
+          <div class="thumbnail sidebar-item">
+            <div class="row">
+              <div class="col-xs-1 col-sm-2" style="padding-right: 5px">
+                <img src="img/anonymous.jpg" class="img-responsive" style="float: left"/>
+              </div>
+              <div class="col-xs-11 col-sm-10" style="padding-left: 5px">
+                <p class="ellipsis ellipsis-2-lines">
+                  <a href="#">[Person Name]</a> created a new board <a href="#">[Board Name]</a> hahha hah ah ha hah hah ha hah ha
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="thumbnail sidebar-item">
+            <div class="row">
+              <div class="col-xs-1 col-sm-2" style="padding-right: 5px">
+                <img src="img/anonymous.jpg" class="img-responsive" style="float: left"/>
+              </div>
+              <div class="col-xs-11 col-sm-10" style="padding-left: 5px">
+                <p class="ellipsis ellipsis-2-lines">
+                  <a href="#">[Person Name]</a> added a new activity <a href="#">[Activity Name]</a> to <a href="#">[Board Name]</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="thumbnail sidebar-item">
+            <div class="row">
+              <div class="col-xs-1 col-sm-2" style="padding-right: 5px">
+                <img src="img/anonymous.jpg" class="img-responsive" style="float: left"/>
+              </div>
+              <div class="col-xs-11 col-sm-10" style="padding-left: 5px">
+                <p class="ellipsis ellipsis-2-lines">
+                  <a href="#">[Person Name]</a> shared a board <a href="#">[Board Name]</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="thumbnail sidebar-item">
+            <div class="row">
+              <div class="col-xs-1 col-sm-2" style="padding-right: 5px">
+                <img src="img/anonymous.jpg" class="img-responsive" style="float: left"/>
+              </div>
+              <div class="col-xs-11 col-sm-10" style="padding-left: 5px">
+                <p class="ellipsis ellipsis-2-lines">
+                  <a href="#">[Person Name]</a> shared <a href="#">[Activity Name]</a> from <a href="#">[Board Name]</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="thumbnail sidebar-item">
+            <div class="row">
+              <div class="col-xs-1 col-sm-2" style="padding-right: 5px">
+                <img src="img/anonymous.jpg" class="img-responsive" style="float: left"/>
+              </div>
+              <div class="col-xs-11 col-sm-10" style="padding-left: 5px">
+                <p class="ellipsis ellipsis-2-lines">
+                  <a href="#">[Person Name]</a> subscribed <a href="#">[Board Name]</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="thumbnail sidebar-item"><center><a href="#">See More</a></center></div>
+        </div>
+        <div class="text-center noNews hidden"><i>Currently there are no news</i></div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">Learning Board</p>
+      </div>
+    </footer>
+  </body>
+</html>
