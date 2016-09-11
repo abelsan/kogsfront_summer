@@ -24,7 +24,7 @@ define(['mdls/User'], function(user) {
     return icon_cdn + filename + ".png";
   }
 
-  var serv_addr = "http://localhost:1337";
+  var serv_addr = "http://www.kogs.io:1337";
   
   var default_error_func = function(res) {
     console.log(res);
