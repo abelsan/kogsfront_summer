@@ -85,7 +85,7 @@ define(['jquery', 'bootstrap', 'mdls/User', 'ga'], function(jquery, bootstrap, U
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="index.html">Kogs</a>
+              <a class="navbar-brand" href="index.html">Learning Kogs</a>
             </div>
             <div id="navbar" class="collapse navbar-collapse">
               <form class="navbar-form navbar-left" role="search" action="search.html">
