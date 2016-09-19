@@ -1,6 +1,10 @@
 # Dependency directories
 node_modules
 
+# ignore utils - done to prevent server name change
+util.js
+src/js/lib/util.js
+
 # OS generated files #
 ######################
 .DS_Store

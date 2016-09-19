@@ -54,12 +54,18 @@ body > .body_container {
 }
 
 /* navbar */
+
+.navbar-default {
+    background-color: #286090;
+    border-color: #333;
+}
+
 .navbar .glyphicon {
   font-size: 20px;
 }
 
 .top-fixed-btn.active>a {
-  background-color: #11a9db !important;
+  background-color: #337ab7 !important;
 }
 
 .navbar-toggle .icon-bar {
