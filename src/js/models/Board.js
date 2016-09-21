@@ -14,7 +14,7 @@ define(['util', 'mdls/Activity'], function (util, Activity) {
       }, actvs);
     }
   };
-  // Board Mixin, for different templates of learning boards
+  // Board Mixin, for different templates of learning Kogs
   // extend this Prototype everytime you create a new view for the object
 
   $.extend(Board.prototype, {

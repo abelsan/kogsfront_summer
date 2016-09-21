@@ -104,7 +104,7 @@ define(['jquery', 'bootstrap', 'mdls/User', 'ga'], function(jquery, bootstrap, U
                 </a></li>
                 <li class="top-fixed-btn ${location.href.includes('boards.html') ? 'active' : ''}"><a href="boards.html">
                   <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
-                  <br />My Boards
+                  <br />My Kogs
                 </a></li>
                 <li class="top-fixed-btn ${location.href.includes('news.html') ? 'active' : ''}"><a href="news.html">
                   <span class="glyphicon glyphicon-bell" aria-hidden="true"></span>

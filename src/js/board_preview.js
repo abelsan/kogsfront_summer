@@ -23,7 +23,7 @@ define(['util', 'temps/BoardDetailTemplate'], function(util, BoardDetailTemplate
           brd_t.$subscribeBtn.show();
           var brd_m = brd_t.model;
           brd_t.display($(".body_container"));
-          document.title = brd_m.title + ' | Learning Boards';
+          document.title = brd_m.title + ' | Learning Kogs';
           // unpublish board, deny access
         },
         function(xhr)
