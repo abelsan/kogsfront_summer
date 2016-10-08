@@ -8,9 +8,15 @@ define(['../ActivityFormTemplate', 'moment'], function(ActivityFormTemplate, mom
 
     var customFormHtml = `
     <div class="form-group">
-      <label for="${this.type}_link">Video Link</label>
-      <input type="url" class="form-control" id="${this.type}_link" name="${this.type}_link" placeholder="video link (support YouTube, Vimeo)" pattern=".*(youtube.com|vimeo.com).*" required>
+      <label for="${this.type}_link">Video Link</label> (<a  data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">select segment</a>)
+      <input type="url" class="form-control" id="${this.type}_link" name="${this.type}_link" placeholder="video link (support YouTube, Vimeo)" pattern=".*(youtube.com|vimeo.com).*" required>      
     </div>
+
+<div>
+
+
+<div class="collapse" id="collapseExample">
+
     <div class="row">
       <div class="col-xs-6">
         <div class="form-group">
@@ -27,6 +33,9 @@ define(['../ActivityFormTemplate', 'moment'], function(ActivityFormTemplate, mom
         </div>
       </div>
     </div>
+
+</div>
+</div>    
     `;
     this.$template.find('.customForm').append(customFormHtml);
 
